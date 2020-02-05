@@ -89,6 +89,9 @@ int Highs_setOptionValue(void *highs,         //!< HiGHS object reference
                          const char *value    //!< new value of option
 );
 
+int Highs_setHighsOptionValue(void *highs, const char *option,
+                              const char *value);
+
 /*
  * @brief
  */
