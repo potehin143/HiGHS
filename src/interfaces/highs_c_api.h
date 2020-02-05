@@ -102,6 +102,12 @@ int Highs_setOptionValue(void* highs,         //!< HiGHS object reference
 /*
  * @brief
  */
+int Highs_setHighsOptionValue(void* highs, const char* option,
+                              const char* value);
+
+/*
+ * @brief
+ */
 void Highs_getSolution(
     void* highs,       //!< HiGHS object reference
     double* colvalue,  //!< array of length [numcol], filled with column values
