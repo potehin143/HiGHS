@@ -178,8 +178,6 @@ set(headers
     util/HighsUtils.h
     Highs.h
     interfaces/highs_c_api.h
-        interfaces/jhi/jhi.h
-        interfaces/jhi/jhi_md.h
         interfaces/highs_java_api.h
         )
 
